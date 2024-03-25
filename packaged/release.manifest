@@ -61,15 +61,15 @@ CACHE:
 /worker.js
 /monacoworker.js
 
-# ver Sun Mar 24 2024 06:40:57 GMT-0300 (Atlantic Daylight Time)
+# ver Sun Feb 18 2024 20:59:16 GMT-0500 (hora estándar oriental)
 
 # target
-/docs/static/logo.portrait.white.svg
-/docs/static/logo.square.white.svg
-/docs/static/logo.square.white.svg
-/docs/static/logo.portrait.black.svg
-/docs/static/icons/apple-touch-icon.png
-/docs/static/icons/apple-touch-icon.png
+/docs\static\logo.portrait.white.svg
+/docs\static\logo.square.white.svg
+/docs\static\logo.square.white.svg
+/docs\static\logo.portrait.black.svg
+/docs\static\icons\apple-touch-icon.png
+/docs\static\icons\apple-touch-icon.png
 
 /target.js
 
