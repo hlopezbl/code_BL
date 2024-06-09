@@ -20,7 +20,7 @@ Mission 1 Lights Weird !! @boardname@.
   "name": "1_Setting_PasswordsAndStuffs",
   "url":"/docs/static/mb/projects/bboard-tutorials-cyberville/Passwords/1_Setting_PasswordsAndStuffs/README",
   "description": "Setting Passwords And Stuffs",
-  "imageUrl":"/docs/static/mb/projects/bboard-tutorials-cyberville/Passwords/1_Setting_PassworsAndStuffs/Mission_1.png",
+  "imageUrl":"/docs/static/mb/projects/bboard-tutorials-cyberville/Passwords/3_Secuences_to_access/BL_Icon.png",
   "cardType": "side",
   "label": "",
   "labelClass": ""
@@ -29,7 +29,7 @@ Mission 1 Lights Weird !! @boardname@.
   "name": "2_Penetration_Test",
   "url":"/docs/static/mb/projects/bboard-tutorials-cyberville/Passwords/2_Penetration_Test/README",
   "description": "Penetration_Test",
-  "imageUrl":"/docs/static/mb/projects/bboard-tutorials-cyberville/Passwords/2_Penetration_Test/Penetration_Test/Penetration_Test.png",
+  "imageUrl":"/docs/static/mb/projects/bboard-tutorials-cyberville/Passwords/3_Secuences_to_access/BL_Icon.png",
   "cardType": "side",
   "label": "",
   "labelClass": ""

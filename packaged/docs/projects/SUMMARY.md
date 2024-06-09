@@ -112,8 +112,6 @@
   * [1_Setting_PasswordsAndStuffs](/docs/static/mb/projects/bboard-tutorials-cyberville/Passwords/1_Setting_PasswordsAndStuffs/README)
   * [2_Penetration_Test](/docs/static/mb/projects/bboard-tutorials-cyberville/Passwords/2_Penetration_Test/README)
   * [3_Secuences_to_access](/docs/static/mb/projects/bboard-tutorials-cyberville/Passwords/3_Secuences_to_access/README)
-* [            ](/projects/bboard-cyberville3)
-  * [Send Comands Remote - Mission 2](/docs/static/mb/projects/bboard-tutorials-cyberville/Snd_Cmd_Remote/README)
 * [Live Coding](/live-coding)
   * [Flashing Heart](https://youtu.be/NvEOKZ8wh9s)
   * [Name Tag](https://youtu.be/xpRI5jjQ31E)
