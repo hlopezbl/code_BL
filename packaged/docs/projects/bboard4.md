@@ -8,6 +8,11 @@ Learn to use Clickboards with your @boardname@.
 
 ```codecard
 [
+
+
+
+
+
 {
   "name": "WiFi BLE",
   "url":"docs/static/mb/projects/bboard-tutorials/wifi-ble/wifi-ble",
@@ -15,7 +20,7 @@ Learn to use Clickboards with your @boardname@.
   "imageUrl":"docs/static/mb/projects/bboard-tutorials/wifi-ble/wifi-ble-click.jpg",
   "largeImageUrl": "docs/static/mb/projects/bboard-tutorials/wifi-ble/wifi-click-gif.gif",
   "cardType": "side",
-  "label": "bBoard Clicks",
+  "label": "Clickboards",
   "labelClass": "green ribbon med"
 }
 
