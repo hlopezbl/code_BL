@@ -61,7 +61,11 @@ CACHE:
 /worker.js
 /monacoworker.js
 
+<<<<<<< HEAD
 # ver Sun Jun 09 2024 19:22:40 GMT-0300 (Atlantic Daylight Time)
+=======
+# ver Sun Jun 09 2024 17:20:47 GMT-0300 (Atlantic Daylight Time)
+>>>>>>> code
 
 # target
 /docs/static/logo.portrait.white.svg
