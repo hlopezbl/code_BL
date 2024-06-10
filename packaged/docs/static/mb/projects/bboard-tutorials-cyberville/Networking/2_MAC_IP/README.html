@@ -1709,22 +1709,6 @@ And the IP address will be displayed on Micro:bit display, similar to this:
 My IP: “192.168.4.2”
 Students can also see the MAC and IP address on the Consola Device</p>
 <p><img class="ui image" src="&quot;docs/static/mb/projects/bboard-tutorials-cyberville/Networking/2_MAC_IP/Step5.png?raw=true" alt="Step5" title="Step5" loading="lazy"></p>
-<h2 id="code-example">Code Example</h2><p>You can download the code for this activity here:
-<a target="_blank" rel="nofollow noopener" href="https://alpha.brilliantlabs.ca/documents/cybersec/Cyber-Security-Activity-7B.hex">https://alpha.brilliantlabs.ca/documents/cybersec/Cyber-Security-Activity-7B.hex</a></p>
-<p>Or use this example is to conenect the b.Board to M5core</p>
-<pre><code class="lang-blocks">input.onButtonPressed(Button.A, function () {
-    basic.showString(Cybersec.getMACaddressbBoard())
-})
-input.onButtonPressed(Button.B, function () {
-    basic.showString(Cybersec.getIPaddressbBoard())
-})
-input.onLogoEvent(TouchButtonEvent.Pressed, function () {
-    Cybersec.Disconnect()
-    basic.showIcon(IconNames.Sad)
-})
-Cybersec.WifiConnect(&quot;Cyberville&quot;, &quot;&quot;)
-basic.forever(function () {
-})</code></pre>
 
     </div>
 
@@ -1769,7 +1753,7 @@ basic.forever(function () {
             <span class="item">Powered by</span>
             <a class="middle aligned" href="https://makecode.com/" title="Microsoft MakeCode"
                 target="_blank" rel="noopener">
-                <img width="100" src="/static/logo/Microsoft-logo_rgb_c-gray.png" alt="Microsoft">
+                <img width="100" src="/docs/static/Microsoft-logo_rgb_c-gray.png" alt="Microsoft">
             </a>
         </div>
     </div>

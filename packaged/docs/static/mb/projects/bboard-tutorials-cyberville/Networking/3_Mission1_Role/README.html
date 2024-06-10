@@ -1691,28 +1691,6 @@
 <p>It should look like this for someone who chooses WATER, and it is connected..</p>
 <p><img class="ui image" src="&quot;docs/static/mb/projects/bboard-tutorials-cyberville/Networking/Step6.png?raw=true" alt="Step6" title="Step6" loading="lazy"></p>
 <p>This activity concludes when each b.Board in the classroom is successfully linked to Cyberville and assigned a role. At this point, the teacher should simulate a cyber attack!!!  by disabling the M5 module, a WiFi provider for Cyberville. This action will result in the disconnection of all devices in Cyberville.</p>
-<h2 id="code-example">Code Example</h2><p>You can download the code for this activity here:
-<a target="_blank" rel="nofollow noopener" href="https://alpha.brilliantlabs.ca/documents/cybersec/Cyber-Security-Activity-7C.hex">https://alpha.brilliantlabs.ca/documents/cybersec/Cyber-Security-Activity-7C.hex</a></p>
-<p>Or use this example is to conenect the b.Board to M5core</p>
-<pre><code class="lang-blocks">input.onButtonPressed(Button.A, function () {
-    basic.showString(Cybersec.getMACaddressbBoard())
-})
-input.onButtonPressed(Button.B, function () {
-    basic.showString(Cybersec.getIPaddressbBoard())
-})
-input.onLogoEvent(TouchButtonEvent.Pressed, function () {
-    Cybersec.Disconnect()
-    basic.showIcon(IconNames.Sad)
-})
-Cybersec.WifiConnect(&quot;Cyberville&quot;, &quot;&quot;)
-basic.forever(function () {
-    if (Cybersec.WiFi_Connected()) {
-        basic.showIcon(IconNames.Square)
-    } else {
-        soundExpression.sad.play()
-        basic.showIcon(IconNames.Sad)
-    }
-})</code></pre>
 
     </div>
 
@@ -1757,7 +1735,7 @@ basic.forever(function () {
             <span class="item">Powered by</span>
             <a class="middle aligned" href="https://makecode.com/" title="Microsoft MakeCode"
                 target="_blank" rel="noopener">
-                <img width="100" src="/static/logo/Microsoft-logo_rgb_c-gray.png" alt="Microsoft">
+                <img width="100" src="/docs/static/Microsoft-logo_rgb_c-gray.png" alt="Microsoft">
             </a>
         </div>
     </div>

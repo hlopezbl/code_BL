@@ -43,27 +43,3 @@ My IP: “192.168.4.2”
 Students can also see the MAC and IP address on the Consola Device
 
 ![Step5]("docs/static/mb/projects/bboard-tutorials-cyberville/Networking/2_MAC_IP/Step5.png?raw=true "Step5")
-
-
-## Code Example
-
-You can download the code for this activity here:
-https://alpha.brilliantlabs.ca/documents/cybersec/Cyber-Security-Activity-7B.hex
-
-Or use this example is to conenect the b.Board to M5core
-
-```blocks
-input.onButtonPressed(Button.A, function () {
-    basic.showString(Cybersec.getMACaddressbBoard())
-})
-input.onButtonPressed(Button.B, function () {
-    basic.showString(Cybersec.getIPaddressbBoard())
-})
-input.onLogoEvent(TouchButtonEvent.Pressed, function () {
-    Cybersec.Disconnect()
-    basic.showIcon(IconNames.Sad)
-})
-Cybersec.WifiConnect("Cyberville", "")
-basic.forever(function () {
-})
-```
