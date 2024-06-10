@@ -1681,12 +1681,14 @@
 					
     <div class="ui text">
         <h1 id="connecting-to-the-wifi-cyberville">Connecting to the WiFi Cyberville</h1><p>Cyberville is a representation of a futuristic ville developed by Brilliant Labs. In this Cyberville all citizens or b.Boards are connected to the WiFi Cyberville network. The Wifi service on Cyberville is provided by the M5 module which will create the Wifi access point called Cyberville.</p>
-<h2 id="description">Description</h2><p>Let’s start 
-1) Go to <a target="_blank" rel="nofollow noopener" href="https://code-alpha.brilliantlabs.ca/">https://code-alpha.brilliantlabs.ca/</a> and create a new project using micro:bit V2,  naming it Cyber_Network.</p>
+<h2 id="description">Description</h2><p>Let’s start </p>
+<p>1) Go to <a target="_blank" rel="nofollow noopener" href="https://code-alpha.brilliantlabs.ca/">https://code-alpha.brilliantlabs.ca/</a> and create a new project using micro:bit V2,  naming it Cyber_Network.</p>
 <p><img class="ui image" src="&quot;docs/static/mb/projects/bboard-tutorials-cyberville/Networking/Step1.png?raw=true" alt="Step1" title="Step1" loading="lazy"></p>
-<p>2) Within the project, use the On Start block and place it inside the Connect to WiFi: ( ) with Password ( ) block.
-3) Set up the right WiFi name. For example: Cyberville. Don’t use a password for this activity.
-4) Create another block to disconnect from the network. You can use On logo Presed</p>
+<p>2) Within the project, use the On Start block and place it inside the Connect to WiFi: ( ) with Password ( ) block.</p>
+<p>3) Set up the right WiFi name. For example: Cyberville. Don’t use a password for this activity.</p>
+<h4 id="access-point-name-cyberville-number">Access Point Name -Cyberville Number</h4><p>Note that we will not use a password for this activity, as the Cyberville number will change each time you restart the M5Core2.
+<img class="ui image" src="&quot;docs/static/mb/projects/bboard-tutorials-cyberville/Networking/1_Connectig/CybervilleNumb.png?raw=true" alt="CybervilleNumb" title="Cyberville Number for Access Point" loading="lazy"></p>
+<p>4) Create another block to disconnect from the network. You can use On logo Presed</p>
 <p><img class="ui image" src="&quot;docs/static/mb/projects/bboard-tutorials-cyberville/Networking/Step2.png?raw=true" alt="Step2" title="Step2" loading="lazy"></p>
 <p>5) Turn on the b.Board and establish communication between the PC, micro:bit and b.Board.
 6) Download the code and check the connection and disconnection code with the M5 module WiFi access point.</p>
@@ -1695,15 +1697,15 @@
 <p>or a sad face if they are not.
 Students will see smile face if they are connected.
 <img class="ui image" src="&quot;docs/static/mb/projects/bboard-tutorials-cyberville/Networking/Disconnected.png?raw=true" alt="Disconnected" title="Disconnected" loading="lazy"></p>
-<h2 id="code-example">Code Example</h2><p>This example is to conenect the b.Board to M5core</p>
-<pre><code class="lang-blocks">let IR_Distance2 = IR_Distance.createIR_Distance(BoardID.zero, ClickID.A)
+<h2 id="code-example">Code Example</h2><p>You can download the code for this activity here:
+<a target="_blank" rel="nofollow noopener" href="https://alpha.brilliantlabs.ca/documents/cybersec/Cyber-Security-Activity-7A.hex">https://alpha.brilliantlabs.ca/documents/cybersec/Cyber-Security-Activity-7A.hex</a></p>
+<p>Or use this example is to conenect the b.Board to M5core</p>
+<pre><code class="lang-blocks">input.onLogoEvent(TouchButtonEvent.Pressed, function () {
+    Cybersec.Disconnect()
+    basic.showIcon(IconNames.Sad)
+})
+Cybersec.WifiConnect(&quot;Cyberville&quot;, &quot;&quot;)
 basic.forever(function () {
-    if (IR_Distance2.getDistance() &lt; 30) {
-        basic.showString(&quot;Near&quot;)
-    } else {
-        basic.showString(&quot;Far&quot;)
-    }
-    basic.pause(1000)
 })</code></pre>
 
     </div>
